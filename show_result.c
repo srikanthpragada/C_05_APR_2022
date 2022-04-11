@@ -1,3 +1,6 @@
+// Take marks and display result
+// Date : 09-APR-2022
+
 #include <stdio.h>
 
 void main()
