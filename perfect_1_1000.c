@@ -5,7 +5,7 @@ void main()
 {
   int  n, total, i;
 
-     for(n = 1; n <= 1000000; n ++)
+     for(n = 1; n <= 10000; n ++)
      {
         total = 0;
         for(i = 1; i <= n/2; i ++)
