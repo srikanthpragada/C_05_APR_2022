@@ -25,5 +25,15 @@ void main()
    if(upper && digit && special)
        puts("\nValid Password");
    else
-       puts("\nInvalid Password");
+   {
+       if(!upper)
+         printf("\nUppercase is missing!");
+
+       if(!digit)
+         printf("\nDigit is missing!");
+
+       if(!special)
+         printf("\nSpecial char is missing!");
+   }
+
 }
