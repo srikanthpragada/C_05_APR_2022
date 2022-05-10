@@ -5,7 +5,9 @@ void main()
 {
 int num, square; // variables
 
-  num = 25;
+  printf("Enter number :");
+  scanf("%d", &num);
+
   square = num * num;
   printf("Square of %d is %d", num, square);
 }
